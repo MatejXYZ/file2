@@ -713,7 +713,6 @@
             void 0 !== t.rtbnid &&
             (r = `&rtb=1&rtbbid=${t.rtbbid}&rtbet=${t.rtbet}&rtblt=${t.rtblt}&rtbnid=${t.rtbnid}&rtbh=${t.rtbh}`),
           new URL(
-            // t.baseUrl +
             "https://google.com/my-test/" +
               "track/action?sid=" +
               i +
