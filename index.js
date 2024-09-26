@@ -180,7 +180,9 @@
             t.addEventListener("load", r, !1);
           }
           tracking(e) {
+            console.info("tracking", !!e);
             if (e) {
+              console.info(e);
               new Image().src = e;
             }
           }
@@ -701,7 +703,6 @@
         return [e, t];
       }
       preparePixel(e, t) {
-        console.info("preparing pixel");
         this.log("preparePixel", e, t);
         const i = Date.now();
         let r = "";
